@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="infoEvent.css" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+#map {
+	height: 100%;
+	width: 100%;
+}
+
+</style>
+
+<title>Event</title>
+</head>
+
+<body onload="miFuncion()">
+<div class="container">
+
+
+	<form id="infoForm" modelAttribute="newEvent">
+		<div class="header">
+					<h3>Fecha y título del evento</h3>
+		</div>
+
+		<div class="sep"></div>
+
+		<div class="inputs">
+		   <div class="box_inline_description">
+				<label>Description</label>
+				<textarea class="form-control" path="description" ></textarea>
+		   </div>
+		</div>
+
+		<div class="inputs">
+			<div class="map">
+				<label>Location</label>
+				<div id="map"></div>
+				<img class="map" src="fluzeugtraeger-62822_1280.jpg"/>
+			</div>
+
+			<div class="image">
+				<label>Image</label>
+				<img class="map" src="fluzeugtraeger-62822_1280.jpg"/>
+
+			</div>
+
+
+		</div>
+
+		<div class="inputs">
+		<label>Mas información: </label>
+		<a href="https://www.pgsanchez.net">Wikipedia</a>
+		</div>
+		<div class="inputs">
+		<label>Tags: </label>
+		<a href="https://www.pgsanchez.net">#Wikipedia</a>
+		<a id="submit" href="#">VOLVER</a>
+		</div>
+
+	</form>
+
+</div>
+
+</body>
+</html>
