@@ -1,3 +1,5 @@
 Este es un fichero nuevo para ver como aparece en GIT
 Será un txt.
 Hasta aquí, el texto original.
+
+Cambio para git, para ver que pasa ahora.
