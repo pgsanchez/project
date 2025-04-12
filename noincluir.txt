@@ -1,0 +1,2 @@
+La idea es que este fichero no se incluya (a través de gitignore)
+Este también lo modifico
