@@ -1,4 +1,0 @@
-La idea es que este fichero no se incluya (a través de gitignore)
-Este también lo modifico
-
-Lo modifico y ahora la modificación irá al github
